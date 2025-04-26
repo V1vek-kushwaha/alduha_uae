@@ -67,7 +67,7 @@ export default function Section4() {
                     </svg>
                   </div>
                   <h3 className="box-title">
-                    <Link href="/service-details">UAE Company Formation</Link>
+                    <Link href="/#">UAE Company Formation</Link>
                   </h3>
                   <p className="box-text">
                     From choosing the right legal structure to obtaining all
@@ -81,7 +81,7 @@ export default function Section4() {
                     alt="img"
                   />
                   <div className="tg-button-wrap">
-                    <Link href="/service-details" className="btn btn-three">
+                    <Link href="/#" className="btn btn-three">
                       <span
                         className="btn-text"
                         data-text="Read More Details"
@@ -134,9 +134,7 @@ export default function Section4() {
                     </svg>
                   </div>
                   <h3 className="box-title">
-                    <Link href="/service-details">
-                      Trade License & Documentation
-                    </Link>
+                    <Link href="/#">Trade License & Documentation</Link>
                   </h3>
                   <p className="box-text">
                     Obtain the necessary permits and licenses to operate your
@@ -149,7 +147,7 @@ export default function Section4() {
                     alt="img"
                   />
                   <div className="tg-button-wrap">
-                    <Link href="/service-details" className="btn btn-three">
+                    <Link href="/#" className="btn btn-three">
                       <span
                         className="btn-text"
                         data-text="Read More Details"
@@ -218,7 +216,7 @@ export default function Section4() {
                     </svg>
                   </div>
                   <h3 className="box-title">
-                    <Link href="/service-details">PRO Services</Link>
+                    <Link href="/#">PRO Services</Link>
                   </h3>
                   <p className="box-text">
                     Our dedicated PRO team handles all your administrative and
@@ -232,7 +230,7 @@ export default function Section4() {
                     alt="img"
                   />
                   <div className="tg-button-wrap">
-                    <Link href="/service-details" className="btn btn-three">
+                    <Link href="/#" className="btn btn-three">
                       <span
                         className="btn-text"
                         data-text="Read More Details"

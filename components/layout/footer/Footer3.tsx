@@ -25,9 +25,7 @@ export default function Footer3() {
                   </div>
                   <div className="media-body">
                     <p className="footer-contact_text">Location</p>
-                    <p className="footer-contact_link">
-                      259 Hilton Street, MK 256 North, United State
-                    </p>
+                    <p className="footer-contact_link">Dubai, UAE</p>
                   </div>
                 </div>
                 <div className="divider" />
@@ -100,39 +98,27 @@ export default function Footer3() {
                     <div className="social-links style3">
                       <ul className="list-wrap">
                         <li>
-                          <Link
-                            href="/https://www.facebook.com/"
-                            target="_blank"
-                          >
+                          <Link href="/#" target="_blank">
                             <i className="fab fa-facebook-f" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/https://twitter.com" target="_blank">
+                          <Link href="/#" target="_blank">
                             <i className="fab fa-twitter" />
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            href="/https://www.instagram.com/"
-                            target="_blank"
-                          >
+                          <Link href="/#" target="_blank">
                             <i className="fab fa-instagram" />
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            href="/https://www.behance.com/"
-                            target="_blank"
-                          >
+                          <Link href="/#" target="_blank">
                             <i className="fab fa-behance" />
                           </Link>
                         </li>
                         <li>
-                          <Link
-                            href="/https://www.youtube.com/"
-                            target="_blank"
-                          >
+                          <Link href="/#" target="_blank">
                             <i className="fab fa-youtube" />
                           </Link>
                         </li>
@@ -145,38 +131,19 @@ export default function Footer3() {
                     <h4 className="footer__widget-title">Links</h4>
                     <ul className="list-wrap">
                       <li>
-                        <Link href="/about">About Us</Link>
+                        <Link href="/#">About Us</Link>
                       </li>
                       <li>
-                        <Link href="/about">Our Mission</Link>
+                        <Link href="/#">Our Mission</Link>
                       </li>
                       <li>
-                        <Link href="/team">Meet The Teams</Link>
+                        <Link href="/#">Meet The Teams</Link>
                       </li>
                       <li>
-                        <Link href="/project">Our Projects</Link>
+                        <Link href="/#">Our Projects</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact Us</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-xl-auto col-md-6">
-                  <div className="footer__widget footer__links">
-                    <h4 className="footer__widget-title">Explore</h4>
-                    <ul className="list-wrap">
-                      <li>
-                        <Link href="/about">What we Offer</Link>
-                      </li>
-                      <li>
-                        <Link href="/about">Our Story</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">Latest Posts</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Help Center</Link>
+                        <Link href="/#">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -186,16 +153,16 @@ export default function Footer3() {
                     <h4 className="footer__widget-title">Explore</h4>
                     <ul className="list-wrap">
                       <li>
-                        <Link href="/about">What we Offer</Link>
+                        <Link href="/#">What we Offer</Link>
                       </li>
                       <li>
-                        <Link href="/about">Our Story</Link>
+                        <Link href="/#">Our Story</Link>
                       </li>
                       <li>
-                        <Link href="/blog">Latest Posts</Link>
+                        <Link href="/#">Latest Posts</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Help Center</Link>
+                        <Link href="/#">Help Center</Link>
                       </li>
                     </ul>
                   </div>
@@ -205,16 +172,35 @@ export default function Footer3() {
                     <h4 className="footer__widget-title">Explore</h4>
                     <ul className="list-wrap">
                       <li>
-                        <Link href="/about">What we Offer</Link>
+                        <Link href="/#">What we Offer</Link>
                       </li>
                       <li>
-                        <Link href="/about">Our Story</Link>
+                        <Link href="/#">Our Story</Link>
                       </li>
                       <li>
-                        <Link href="/blog">Latest Posts</Link>
+                        <Link href="/#">Latest Posts</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Help Center</Link>
+                        <Link href="/#">Help Center</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-xl-auto col-md-6">
+                  <div className="footer__widget footer__links">
+                    <h4 className="footer__widget-title">Explore</h4>
+                    <ul className="list-wrap">
+                      <li>
+                        <Link href="/#">What we Offer</Link>
+                      </li>
+                      <li>
+                        <Link href="/#">Our Story</Link>
+                      </li>
+                      <li>
+                        <Link href="/#">Latest Posts</Link>
+                      </li>
+                      <li>
+                        <Link href="/#">Help Center</Link>
                       </li>
                     </ul>
                   </div>

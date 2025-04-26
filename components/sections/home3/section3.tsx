@@ -114,7 +114,7 @@ export default function Section3() {
                   </div>
                 </div>
                 <div className="tg-button-wrap mt-40">
-                  <Link href="/appointment" className="btn">
+                  <Link href="/#" className="btn">
                     <span className="btn-text" data-text="Get Consultant" />
                   </Link>
                   <div className="info-card">

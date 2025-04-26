@@ -13,7 +13,7 @@ export default function Section9() {
             <div className="col-xl-4 col-md-6">
               <div className="blog__post-item blog__post-item-two blog__post-item-three">
                 <div className="blog__post-thumb image-anim">
-                  <Link href="/blog-details">
+                  <Link href="/#">
                     <img src="/assets/img/blog/1-1.jpg" alt="img" />
                   </Link>
                   <div className="blog__post-date">
@@ -22,7 +22,7 @@ export default function Section9() {
                 </div>
                 <div className="blog__post-content">
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="/#">
                       How can I start a company in the United Arab Emirates?
                     </Link>
                   </h3>
@@ -32,7 +32,7 @@ export default function Section9() {
                     register your company with the relevant UAE authorities
                   </p>
                   <div className="blog__post-bottom">
-                    <Link href="/blog-details" className="link-btn">
+                    <Link href="/#" className="link-btn">
                       READ MORE
                       <i className="fas fa-arrow-right" />
                     </Link>
@@ -43,7 +43,7 @@ export default function Section9() {
             <div className="col-xl-4 col-md-6">
               <div className="blog__post-item blog__post-item-two blog__post-item-three">
                 <div className="blog__post-thumb image-anim">
-                  <Link href="/blog-details">
+                  <Link href="/#">
                     <img src="/assets/img/blog/1-2.jpg" alt="img" />
                   </Link>
                   <div className="blog__post-date">
@@ -52,7 +52,7 @@ export default function Section9() {
                 </div>
                 <div className="blog__post-content">
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="/#">
                       Can foreign nationals open a business in the UAE?
                     </Link>
                   </h3>
@@ -62,7 +62,7 @@ export default function Section9() {
                     nationality, and the type of business you
                   </p>
                   <div className="blog__post-bottom">
-                    <Link href="/blog-details" className="link-btn">
+                    <Link href="/#" className="link-btn">
                       READ MORE
                       <i className="fas fa-arrow-right" />
                     </Link>
@@ -73,7 +73,7 @@ export default function Section9() {
             <div className="col-xl-4 col-md-6">
               <div className="blog__post-item blog__post-item-two blog__post-item-three">
                 <div className="blog__post-thumb image-anim">
-                  <Link href="/blog-details">
+                  <Link href="/#">
                     <img src="/assets/img/blog/1-3.jpg" alt="img" />
                   </Link>
                   <div className="blog__post-date">
@@ -82,7 +82,7 @@ export default function Section9() {
                 </div>
                 <div className="blog__post-content">
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="/#">
                       UAE Mainland Company Registration cost?
                     </Link>
                   </h3>
@@ -92,7 +92,7 @@ export default function Section9() {
                     setup expert for accurate pricing.
                   </p>
                   <div className="blog__post-bottom">
-                    <Link href="/blog-details" className="link-btn">
+                    <Link href="/#" className="link-btn">
                       READ MORE
                       <i className="fas fa-arrow-right" />
                     </Link>
