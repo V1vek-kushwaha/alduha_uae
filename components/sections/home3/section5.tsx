@@ -16,10 +16,10 @@ export default function Section5() {
 						<div className="col-lg-7">
 							<div className="section__title text-center mb-50">
 								<span className="sub-title text-anim">Watch Company Video</span>
-								<h2 className="title text-anim2">Valom is your all-in-one human
+								<h2 className="title text-anim2">AI-Duha is your all-in-one human
 									resources platform
 								</h2>
-								<p className="mt-4">Simplifying HR and payroll management by automating routine tasks, securing employee data, and providing insightful analytics.</p>
+								<p className="mt-4">As an authorised agent for company formation in Dubai, Shuraa Business Setup is ready to provide unparalleled business setup services in the UAE.</p>
 							</div>
 						</div>
 					</div>

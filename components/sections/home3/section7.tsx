@@ -29,20 +29,21 @@ export default function Section7() {
 							</div>
 							<div className="col-xl-6">
 								<div className="section__title">
-									<span className="sub-title text-anim">About Our Compnay</span>
-									<h2 className="title text-anim2">We Provide 100% Trusted
-										Transport Support
+									<span className="sub-title text-anim">Benefits
+									</span>
+									<h2 className="title text-anim2">Benefits of UAE Mainland Company Formation
 									</h2>
 								</div>
-								<p className="mt-30 mb-40">Business consultancy services focus on identifying challenges within an organization and providing tailored solutions. This includes areas such as market positioning, financial planning, and operational efficiency...</p>
+								<p className="mt-30 mb-40">Setting up a UAE mainland company offers full ownership flexibility, easy access to local and global markets, and minimal currency restrictions. It’s an ideal choice for entrepreneurs aiming for unlimited business growth across the UAE and beyond...</p>
 								<div className="about-grid-wrap style3">
 									<div className="about-grid-card style3">
 										<div className="box-icon">
 											<img src="/assets/img/icon/feature-icon2-1.svg" alt="img" />
 										</div>
 										<div className="card-details">
-											<h4 className="box-title">Global Business Service</h4>
-											<p className="box-text">Business consultancy services focus on identifying challenges within an organization and providing tailored solutions.</p>
+											<h4 className="box-title">Key Benefits
+											</h4>
+											<p className="box-text">Availability of commercial space for lease in any location  Capacity to engage in a variety of commercial operations</p>
 										</div>
 									</div>
 									<div className="about-grid-card style3">
@@ -51,7 +52,7 @@ export default function Section7() {
 										</div>
 										<div className="card-details">
 											<h4 className="box-title">Global Business Service</h4>
-											<p className="box-text">Business consultancy services focus on identifying challenges within an organization and providing tailored solutions.</p>
+											<p className="box-text">Processing work visas is simple <br/>No restrictions on currency</p>
 										</div>
 									</div>
 								</div>

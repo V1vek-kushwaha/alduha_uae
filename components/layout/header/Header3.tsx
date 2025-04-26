@@ -336,8 +336,8 @@ export default function Header3({
               <i className="fas fa-times" />
             </div>
             <div className="nav-logo">
-              <Link href="#">
-                <img src="/assets/img/logo/logo.svg" alt="Logo" />
+              <Link href="/">
+                <img src="/assets/img/logo/logo.png" alt="Logo" />
               </Link>
             </div>
             <div className="tgmobile__menu-outer">

@@ -286,7 +286,7 @@ export default function Header1({
             </div>
             <div className="nav-logo">
               <Link href="/">
-                <img src="/assets/img/logo/logo.png" alt="Logo" />
+                <img src="/assets/img/logo/logo-1.png" alt="Logo" />
               </Link>
             </div>
             <div className="tgmobile__menu-outer">
