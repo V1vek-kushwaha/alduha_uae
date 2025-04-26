@@ -98,27 +98,27 @@ export default function Footer3() {
                     <div className="social-links style3">
                       <ul className="list-wrap">
                         <li>
-                          <Link href="/#" target="_blank">
+                          <Link href="/#">
                             <i className="fab fa-facebook-f" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#" target="_blank">
+                          <Link href="/#">
                             <i className="fab fa-twitter" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#" target="_blank">
+                          <Link href="/#">
                             <i className="fab fa-instagram" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#" target="_blank">
+                          <Link href="/#">
                             <i className="fab fa-behance" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#" target="_blank">
+                          <Link href="/#">
                             <i className="fab fa-youtube" />
                           </Link>
                         </li>
