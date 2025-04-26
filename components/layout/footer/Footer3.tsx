@@ -56,7 +56,7 @@ export default function Footer3() {
 									<div className="footer__widget footer__about">
 										<h4 className="footer__widget-title">About Us</h4>
 										<p className="footer__content mb-30">
-											Intrinsicly evisculate emerging cutting edge scenarios redefine future-proof e-markets demand line
+										Experience seamless business setup in Dubai with our expert solutions. With over 10+ years of expertise
 										</p>
 										<div className="social-links style3">
 											<ul className="list-wrap">

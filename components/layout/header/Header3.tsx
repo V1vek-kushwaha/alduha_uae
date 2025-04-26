@@ -112,7 +112,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 					<nav className="tgmobile__menu-box">
 						<div className="close-btn"><i className="fas fa-times" /></div>
 						<div className="nav-logo">
-							<Link href="/"><img src="/assets/img/logo/logo.svg" alt="Logo" /></Link>
+							<Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
 						</div>
 						<div className="tgmobile__menu-outer">
 							{/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
@@ -120,7 +120,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 						<div className="tgmobile__menu-bottom">
 							<div className="contact-info">
 								<ul className="list-wrap">
-									<li>Mail: <Link href="/mailto:info@valom.com">info@valom.com</Link></li>
+									<li>Mail: <Link href="/mailto:info@valom.com">info@aidaha.com</Link></li>
 									<li>Phone: <Link href="/tel:0123456789">+123 888 9999</Link></li>
 								</ul>
 							</div>
