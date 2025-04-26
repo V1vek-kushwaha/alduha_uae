@@ -9,10 +9,9 @@ export default function Section4() {
           <div className="row justify-content-center">
             <div className="col-12">
               <div className="section__title text-center mb-50">
-                <span className="sub-title text-anim">Types of Mainland</span>
+                <span className="sub-title text-anim">Service We Provide</span>
                 <h2 className="title text-white text-anim2">
-                  {" "}
-                  Company Formation in UAE
+                  Our Top Business Service
                 </h2>
               </div>
             </div>
@@ -68,14 +67,12 @@ export default function Section4() {
                     </svg>
                   </div>
                   <h3 className="box-title">
-                    <Link href="/service-details">
-                      Branch of Foreign Office
-                    </Link>
+                    <Link href="/service-details">UAE Company Formation</Link>
                   </h3>
                   <p className="box-text">
-                    Dubai offers opportunities to financial experts looking for
-                    a platform to expand their firm.You might use Mainland
-                    business creation to incorporate your branch office
+                    From choosing the right legal structure to obtaining all
+                    necessary approvals, we guide you through the entire company
+                    formation process in the UAE.
                   </p>
                 </div>
                 <div className="box-img image-anim">
@@ -137,12 +134,13 @@ export default function Section4() {
                     </svg>
                   </div>
                   <h3 className="box-title">
-                    <Link href="/service-details">Professional Companies</Link>
+                    <Link href="/service-details">
+                      Trade License & Documentation
+                    </Link>
                   </h3>
                   <p className="box-text">
-                    Additionally referred to as common organisations, they are
-                    committed to a certain vocation to carry out the
-                    professional practise specific to their field.
+                    Obtain the necessary permits and licenses to operate your
+                    business legally in Dubai or the UAE,
                   </p>
                 </div>
                 <div className="box-img image-anim">
@@ -220,12 +218,12 @@ export default function Section4() {
                     </svg>
                   </div>
                   <h3 className="box-title">
-                    <Link href="/service-details">LLC</Link>
+                    <Link href="/service-details">PRO Services</Link>
                   </h3>
                   <p className="box-text">
-                    One of the most well-known forms of business entities is the
-                    limited liability company (LLC), which may be formed with
-                    the participation of at least two investors
+                    Our dedicated PRO team handles all your administrative and
+                    governmental formalities, ensuring smooth and efficient
+                    operations.
                   </p>
                 </div>
                 <div className="box-img image-anim">

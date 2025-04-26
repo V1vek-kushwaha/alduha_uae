@@ -13,7 +13,7 @@ export default function Header3({
 							<div className="row">
 								<div className="col-xl-6 col-md-8">
 									<ul className="tg-header__top-info left-side list-wrap">
-										<li><i className="far fa-envelope" /><Link href="/mailto:info@valom.com">info@alduha.com</Link></li>
+										<li><i className="far fa-envelope" /><Link href="/mailto:info@Al-Duha.com">info@alduha.com</Link></li>
 										<li><i className="far fa-clock" />Working: 8.00am - 5.00pm</li>
 									</ul>
 								</div>
@@ -348,7 +348,9 @@ export default function Header3({
                 <ul className="list-wrap">
                   <li>
                     Mail:{" "}
-                    <Link href="/mailto:info@valom.com">info@valom.com</Link>
+                    <Link href="/mailto:info@Al-Duha.com">
+                      info@Al-Duha.com
+                    </Link>
                   </li>
                   <li>
                     Phone: <Link href="/tel:0123456789">+123 888 9999</Link>
