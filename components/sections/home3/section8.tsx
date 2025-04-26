@@ -4,7 +4,7 @@ export default function Section8() {
 	return (
 		<>
 
-			<section className="pricing-area-1 pt-120 pb-120 overflow-hidden gray-bg section-radius position-relative">
+			<section className="pricing-area-1 pt-120 pb-120 overflow-hidden gray-bgs gray-primary section-radius position-relative">
 				<div className="team-bg-shape3-1 d-xl-block d-none">
 					<img src="/assets/img/bg/team-bg-shape3-1.png" alt="img" />
 				</div>

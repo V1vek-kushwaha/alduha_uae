@@ -66,7 +66,7 @@
   --tg-color-white-default: #ffffff;
   --tg-color-red-default: #ED1730;
   --tg-color-yellow-default: #FCE300;
-  --tg-color-gray-1: #1C2F35;
+  --tg-theme-primary-1: linear-gradient(195deg, rgb(5, 17, 54) 0%, rgb(5, 91, 130) 99%);  --tg-color-gray-1: #1C2F35;
   --tg-color-gray-2: #2C383D;
   --tg-color-gray-3: #0D161A;
   --tg-color-gray-4: #F7F4F7;
@@ -644,7 +644,7 @@ textarea {
 .btn {
   user-select: none;
   -moz-user-select: none;
-  background: var(--tg-theme-primary) none repeat scroll 0 0;
+  background: var(--tg-theme-primary) repeat scroll 0 0;
   border: medium none;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1128,6 +1128,10 @@ textarea {
   background: var(--tg-color-gray-1);
 }
 
+.gray-primary{
+  background: var(--tg-theme-primary);
+}
+
 .smoke5-bg {
   background: var(--tg-color-smoke-5);
 }
@@ -1150,6 +1154,7 @@ textarea {
 
 .black1-bg {
   background: var(--tg-color-black-1);
+  /* background: var(--tg-theme-primary-1); */
 }
 
 .black2-bg {
@@ -2949,7 +2954,7 @@ textarea.is-invalid {
 }
 
 .tg-header__area-four.sticky-menu {
-  background: var(--tg-color-gray-8);
+  background: var(--tg-theme-primary);
 }
 
 .tg-header__area-five {
@@ -4625,7 +4630,8 @@ textarea.is-invalid {
 
 /*hero 3****************/
 .hero-3 {
-  background-color: var(--tg-color-gray-8);
+  /* background-color: var(--tg-color-gray-8); */
+  background: var(--tg-theme-primary-1);
   --space: 120px;
   padding: calc(var(--space) + 160px) 0 var(--space);
 }
@@ -4685,7 +4691,7 @@ textarea.is-invalid {
 .hero-style3 .hero-title span {
   background: linear-gradient(90deg, var(--tg-theme-primary) 0%, #C7FFFF 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
 }
 

@@ -4,7 +4,7 @@ export default function Section6() {
 	return (
 		<>
 
-			<section className="team-area-3 pt-120 pb-120 overflow-hidden gray-bg position-relative">
+			<section className="team-area-3 pt-120 pb-120 overflow-hidden gray-primary position-relative">
 				<div className="team-bg-shape3-1 d-xl-block d-none">
 					<img src="/assets/img/bg/team-bg-shape3-1.png" alt="img" />
 				</div>

@@ -4,7 +4,11 @@ export default function Section1() {
 	return (
 		<>
 
-			<section className="hero-wrapper hero-3 overflow-hidden bg-cover" data-background="assets/img/hero/hero-bg3-1.png">
+			<section className="hero-wrapper hero-3 overflow-hidden bg-cover" data-background="assets/img/hero/hero-bg3-2.png" 
+			style={{backgroundImage: "url(assets/img/hero/hero-bg3-2.png)", backgroundRepeat: 'no-repeat',
+				backgroundSize: 'cover',
+				backgroundPosition: 'center'}}
+			>
 				<div className="container">
 					<div className="row gy-5 align-items-center">
 						<div className="col-lg-6">

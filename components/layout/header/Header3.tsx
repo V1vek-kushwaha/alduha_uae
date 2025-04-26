@@ -4,12 +4,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 		<>
 			<header>
 				<div className="transparent-header">
-					<div className="tg-header__top">
+					{/* <div className="tg-header__top">
 						<div className="container">
 							<div className="row">
 								<div className="col-xl-6 col-md-8">
 									<ul className="tg-header__top-info left-side list-wrap">
-										<li><i className="far fa-envelope" /><Link href="/mailto:info@valom.com">info@valom.com</Link></li>
+										<li><i className="far fa-envelope" /><Link href="/mailto:info@valom.com">info@alduha.com</Link></li>
 										<li><i className="far fa-clock" />Working: 8.00am - 5.00pm</li>
 									</ul>
 								</div>
@@ -34,7 +34,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div id="sticky-header" className="tg-header__area tg-header__area-four">
 						<div className="container">
 							<div className="row">
@@ -42,11 +42,11 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 									<div className="tgmenu__wrap">
 										<nav className="tgmenu__nav">
 											<div className="logo">
-												<Link href="/"><img src="/assets/img/logo/logo-white.svg" alt="Logo" /></Link>
+												<Link href="/"><img src="/assets/img/logo/logo-white.png" alt="Logo" /></Link>
 											</div>
 											<div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
 												<ul className="navigation">
-													<li className="active menu-item-has-children"><Link href="#">Home</Link>
+													{/* <li className="active menu-item-has-children"><Link href="#">Home</Link>
 														<ul className="sub-menu">
 															<li><Link href="/">Home One</Link></li>
 															<li><Link href="/home-2">Home Two</Link></li>
@@ -54,33 +54,34 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }: any)
 															<li><Link href="/home-4">Home Four</Link></li>
 															<li><Link href="/home-5">Home Five</Link></li>
 														</ul>
-													</li>
-													<li><Link href="/about">Abour Us</Link></li>
+													</li> */}
+													<li><Link href="/">Home</Link></li>
+													<li><Link href="#">About Us</Link></li>
 													<li className="menu-item-has-children"><Link href="#">Services</Link>
 														<ul className="sub-menu">
-															<li><Link href="/service">Services</Link></li>
-															<li><Link href="/service-details">Service Details</Link></li>
+															<li><Link href="#">Services</Link></li>
+															<li><Link href="#">Service Details</Link></li>
 														</ul>
 													</li>
 													<li className="menu-item-has-children"><Link href="#">Pages</Link>
 														<ul className="sub-menu">
-															<li><Link href="/project">Project Page</Link></li>
-															<li><Link href="/project-details">Project Details</Link></li>
-															<li><Link href="/team">Team Page</Link></li>
-															<li><Link href="/team-details">Team Details</Link></li>
-															<li><Link href="/pricing">Pricing</Link></li>
-															<li><Link href="/appointment">Appointment</Link></li>
-															<li><Link href="/error">404 Page</Link></li>
+															<li><Link href="#">Project Page</Link></li>
+															<li><Link href="#">Project Details</Link></li>
+															<li><Link href="#">Team Page</Link></li>
+															<li><Link href="#">Team Details</Link></li>
+															<li><Link href="#">Pricing</Link></li>
+															<li><Link href="#">Appointment</Link></li>
+															<li><Link href="#">404 Page</Link></li>
 														</ul>
 													</li>
 													<li className="menu-item-has-children"><Link href="#">Blog</Link>
 														<ul className="sub-menu">
-															<li><Link href="/blog">Blog List</Link></li>
-															<li><Link href="/blog-2">Blog Grid</Link></li>
-															<li><Link href="/blog-details">Blog Details</Link></li>
+															<li><Link href="#">Blog List</Link></li>
+															<li><Link href="#">Blog Grid</Link></li>
+															<li><Link href="#">Blog Details</Link></li>
 														</ul>
 													</li>
-													<li><Link href="/contact">Contacts</Link></li>
+													<li><Link href="#">Contacts</Link></li>
 												</ul>
 											</div>
 											<div className="tgmenu__action d-none d-md-block">
