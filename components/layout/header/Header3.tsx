@@ -49,7 +49,7 @@ export default function Header3({
                   <div className="tgmenu__wrap">
                     <nav className="tgmenu__nav">
                       <div className="logo">
-                        <Link href="/">
+                        <Link href="#">
                           <img
                             src="/assets/img/logo/logo-white.png"
                             alt="Logo"
@@ -60,7 +60,7 @@ export default function Header3({
                         <ul className="navigation">
                           {/* <li className="active menu-item-has-children"><Link href="#">Home</Link>
 														<ul className="sub-menu">
-															<li><Link href="/">Home One</Link></li>
+															<li><Link href="#">Home One</Link></li>
 															<li><Link href="/home-2">Home Two</Link></li>
 															<li className="active"><Link href="/home-3">Home Three</Link></li>
 															<li><Link href="/home-4">Home Four</Link></li>
@@ -68,82 +68,204 @@ export default function Header3({
 														</ul>
 													</li> */}
                           {/* <li>
-                            <Link href="/">Home</Link>
+                            <Link href="#">Home</Link>
                           </li> */}
                           <li className="menu-item-has-children ">
                             <Link href="#">Business Setup</Link>
-                            <ul className="sub-menu">
-                              <li className="active">
-                                <Link href="/">UAE</Link>
-                              </li>
-
-                              <li className="active">
-                                <Link href="/">UAE Free Zone</Link>
-                              </li>
-                              <li className="active">
-                                <Link href="/">UAE Offshore</Link>
-                              </li>
-                              <li className="active">
-                                <Link href="/">Packages</Link>
-                              </li>
-                              {/* <li>
-                              <Link href="/home-2">Home Two</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-3">Home Three</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-4">Home Four</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-5">Home Five</Link>
-                            </li> */}
-                            </ul>
+                            <div className="mega-menu">
+                              <div className="mega-column">
+                                <h5>UAE Mainland</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">Dubai Mainland</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Abu Dhabi Mainland</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Ajman Mainland</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Sharjah Mainland</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <h5>UAE Free Zone</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">Dubai Free Zone</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">IFZA</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">RAKEZ</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Sharjah Free Zone</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Ajman Free Zone</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">
+                                      Ras Al Khanimah Free Zone
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <h5>UAE Offshore</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">Dubai Offshore</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Jebel Ali Offshore</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Ajman Offshore</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <h5>Packages</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">View All Packages</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
                           </li>
 
                           <li className="menu-item-has-children">
                             <Link href="#">Our Services</Link>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link href="#">Trade License Services</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Pro & Visa Services</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Other Services</Link>
-                              </li>
-                            </ul>
+                            <div className="mega-menu">
+                              <div className="mega-column">
+                                <h5>Trade Lincense Services</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">Business Licenses</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">
+                                      Commercial Trade License
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">
+                                      Professional Trade License
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">
+                                      Industrial Trade License
+                                    </Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <h5>Pro & Visa Services</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">Pro Services</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">
+                                      Pro Services - Abu Dhabi
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Pro Services - Sharjah</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Pro Services - Sharjah</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Pro Services - Ajman</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Golden Visa</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <h5>Other Services</h5>
+                                <ul>
+                                  <li>
+                                    <Link href="#">Bank Account Opening</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">
+                                      Local Sponsorship Agent Services
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Business Activities</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Bank Guarantee</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Company Aduting</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
                           </li>
 
                           <li className="menu-item-has-children">
                             <Link href="#">Community</Link>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link href="#">Abour Us</Link>
-                              </li>
-                              <li>
-                                <Link href="#">News & Events</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Press Releases</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Client Stories</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Company Profile</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Chairmen's Profile</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Our Experts</Link>
-                              </li>
-                              <li>
-                                <Link href="#">Why Al-Duha</Link>
-                              </li>
-                            </ul>
+
+                            <div className="mega-menu">
+                              <div className="mega-column">
+                                <ul>
+                                  <li>
+                                    <Link href="#">About Us</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">News & Events</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Press Releases</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <ul>
+                                  <li>
+                                    <Link href="#">Client Stories</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Company Profile</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Chairmen's Profile</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Company Aduting</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div className="mega-column">
+                                <ul>
+                                  <li>
+                                    <Link href="#">Our Experts</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Why Al-Duha</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Business Activities</Link>
+                                  </li>
+                                  <li>
+                                    <Link href="#">Bank Guarantee</Link>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
                           </li>
                           <li>
                             <Link href="#">Blog </Link>
@@ -214,7 +336,7 @@ export default function Header3({
               <i className="fas fa-times" />
             </div>
             <div className="nav-logo">
-              <Link href="/">
+              <Link href="#">
                 <img src="/assets/img/logo/logo.svg" alt="Logo" />
               </Link>
             </div>

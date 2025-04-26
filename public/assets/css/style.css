@@ -14355,7 +14355,7 @@ blockquote .blockquote-card_title:before {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 800px; /* adjust width as you like */
+  width: 800px;
   background: white;
   display: flex;
   padding: 20px;
@@ -14364,6 +14364,7 @@ blockquote .blockquote-card_title:before {
   opacity: 0;
   transition: all 0.3s ease;
   z-index: 99;
+  min-height: 250px;
 }
 
 .menu-item-has-children:hover .mega-menu {
@@ -14379,25 +14380,34 @@ blockquote .blockquote-card_title:before {
 .mega-column h5 {
   font-size: 16px;
   margin-bottom: 10px;
-  color: #333;
+  color: rgb(5, 17, 54);
   font-weight: 600;
 }
 
 .mega-column ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .mega-column ul li {
-  margin-bottom: 8px;
+  margin: 0;
+  padding: 0;
 }
 
-.mega-column ul li a {
+.mega-menu a {
+  display: block;
+  padding: 16px 0 !important; /* 👈 IMPORTANT FIX */
+  margin: 0;
+  line-height: 1.4;
+  font-size: 14px !important;;
   color: #555;
-  font-size: 14px;
   text-decoration: none;
+  background: transparent;
+  text-wrap: nowrap;
 }
 
-.mega-column ul li a:hover {
-  color: #007bff;
+.mega-menu a:hover {
+  color: #007bff !important;
+  background-color: #f5f5f5;
 }
