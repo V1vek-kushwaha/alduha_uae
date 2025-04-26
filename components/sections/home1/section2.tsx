@@ -9,6 +9,199 @@ export default function Section2() {
           data-background="assets/img/bg/feature-bg1-1.png"
         >
           <div className="container">
+            <div className="row justify-content-center text-nowrap">
+              <div className="col-xl-8 col-lg-9">
+                <div className="section__title text-center mb-50">
+                  {/* <span className="sub-title text-anim">Our Featured</span> */}
+                  <span className="title text-anim">
+                    {" "}
+                    Your UAE Business, Our Trusted Services
+                  </span>
+                  <p>
+                    Al-Duha Business Setup offers a comprehensive range of
+                    services curated for your business specific needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="row gy-30 justify-content-center">
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">UAE Company Formation</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        d="M3 14v-4c0-3.771 0-5.657 1.172-6.828S7.229 2 11 2h2c3.771 0 5.657 0 6.828 1.172c.654.653.943 1.528 1.07 2.828M21 10v4c0 3.771 0 5.657-1.172 6.828S16.771 22 13 22h-2c-3.771 0-5.657 0-6.828-1.172c-.654-.653-.943-1.528-1.07-2.828M8 14h5m-5-4h1m7 0h-4"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">Trade License</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M14.121 10.48a1 1 0 0 0-1.414 0l-.707.706a2 2 0 0 1-2.828-2.828l5.63-5.632a6.5 6.5 0 0 1 6.377 10.568l-2.108 2.135zM3.161 4.468a6.5 6.5 0 0 1 8.009-.938L7.757 6.944a4 4 0 0 0 5.513 5.794l.144-.137l4.243 4.242l-4.243 4.243a2 2 0 0 1-2.828 0L3.16 13.66a6.5 6.5 0 0 1 0-9.192"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">PRO Services</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M2 4.5A1.5 1.5 0 0 1 3.5 3h11A1.5 1.5 0 0 1 16 4.5V8h-3a2 2 0 0 0-2 2v3H3.5A1.5 1.5 0 0 1 2 11.5zM4 7a2 2 0 0 0 2-2V4H5v1a1 1 0 0 1-1 1H3v1zm3.25 1a1.75 1.75 0 1 0 3.5 0a1.75 1.75 0 0 0-3.5 0M3 9v1h1a1 1 0 0 1 1 1v1h1v-1a2 2 0 0 0-2-2zm12-2V6h-1a1 1 0 0 1-1-1V4h-1v1a2 2 0 0 0 2 2zm2 1V5.085A1.5 1.5 0 0 1 18 6.5V8zm-6 6v1H5.5a1.5 1.5 0 0 1-1.415-1zm2.5-5a1.5 1.5 0 0 0-1.5 1.5v7a1.5 1.5 0 0 0 1.5 1.5h4a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 17.5 9zm0 4h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m3 0h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m-3 2h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m3 0h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m-3 2h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m3 0h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1M13 10.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">VAT ,TAX & Accounting</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M33 42.5h5.5a4 4 0 0 0 4-4v-4.084m-37 2V38.5a4 4 0 0 0 4 4h7.688m0-37H9.5a4 4 0 0 0-4 4v3.172M30.813 5.5H38.5a4 4 0 0 1 4 4v3.172m.778 2.675L22.832 3.541a1.75 1.75 0 0 0-2.389.64l-15.3 26.508a1.75 1.75 0 0 0 .64 2.39h0l20.445 11.806a1.75 1.75 0 0 0 2.39-.64l15.301-26.508a1.75 1.75 0 0 0-.64-2.39m-9.028 3.831l-13.52-7.919m15.275 13.333l-17.233-9.95m15.249 13.403L16.79 18.094"
+                        stroke-width="1"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">UAE Golden Visa</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M11 6h3l3.29-3.3a1 1 0 0 1 1.42 0l2.58 2.59a1 1 0 0 1 0 1.41L19 9h-8v2a1 1 0 0 1-1 1a1 1 0 0 1-1-1V8a2 2 0 0 1 2-2m-6 5v4l-2.29 2.29a1 1 0 0 0 0 1.41l2.58 2.59a1 1 0 0 0 1.42 0L11 17h4a1 1 0 0 0 1-1v-1h1a1 1 0 0 0 1-1v-1h1a1 1 0 0 0 1-1v-1h-7v1a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9Z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">Local Sponsorship</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M17 14h2v3h3v2h-3v3h-2v-3h-3v-2h3zM11.5 1L21 6v2H2V6zm4.5 9h3v2.08L18 12c-.7 0-1.37.12-2 .34zM2 22v-3h10.08c.19 1.14.71 2.17 1.45 3zm8-12h3v4.68c-.46.69-.78 1.47-.92 2.32H10zm-6 0h3v7H4z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">Banking & Compliance</Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <div className="feature-card d-flex flex-column align-items-center py-4">
+                  <div className="box-icon d-flex justify-content-center align-items-center mb-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={62}
+                      height={60}
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M13.504 50.957h12.844a12.9 12.9 0 0 1-3.07-3.773h-9.563c-2.414 0-3.703-1.243-3.703-3.586V8.137c0-2.32 1.265-3.657 3.703-3.657h24.492c2.344 0 3.68 1.313 3.68 3.657v20.437a12.9 12.9 0 0 1 3.773 3.047V8.066c0-4.898-2.414-7.359-7.265-7.359H13.504c-4.828 0-7.266 2.484-7.266 7.36V43.62c0 4.898 2.438 7.336 7.266 7.336m3.586-36.914h17.766c.82 0 1.453-.656 1.453-1.477c0-.796-.633-1.406-1.453-1.406H17.09c-.867 0-1.477.61-1.477 1.406c0 .82.61 1.477 1.477 1.477m0 8.18h17.766c.82 0 1.453-.657 1.453-1.477c0-.797-.633-1.406-1.453-1.406H17.09c-.867 0-1.477.61-1.477 1.406c0 .82.61 1.477 1.477 1.477m18.047 28.734c2.11 0 4.101-.61 5.742-1.71l5.273 5.296c.563.539 1.078.75 1.711.75c1.078 0 1.899-.844 1.899-2.04c0-.515-.258-1.03-.656-1.429l-5.344-5.343a10.53 10.53 0 0 0 1.898-6.047c0-5.836-4.71-10.547-10.523-10.547s-10.57 4.758-10.57 10.547c0 5.812 4.757 10.523 10.57 10.523m0-3.352c-3.985 0-7.219-3.21-7.219-7.171c0-3.914 3.234-7.172 7.219-7.172c3.914 0 7.148 3.258 7.148 7.172c0 3.96-3.21 7.171-7.148 7.171"
+                      />
+                    </svg>
+                  </div>
+                  <h3 className="box-title2 text-center">
+                    <Link href="/#">Company Auditing</Link>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="feature-area-1 overflow-hidden">
+        <div
+          className="feature-wrap1 pt-120 pb-120"
+          data-background="assets/img/bg/feature-bg1-1.png"
+        >
+          <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-8 col-lg-9">
                 <div className="section__title text-center mb-50">
